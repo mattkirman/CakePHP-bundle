@@ -5,19 +5,22 @@
 	<key>content</key>
 	<string>&lt;?php
 /**
- * $ Model
+ * $1 Model${2:
  * 
- * [Short Description]
+ * ${3:Short Description}}
  *
- * @package ${2:default}
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
- * @version \$Id\$
+ * @package ${4:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME} &lt;${PHPDOC_AUTHOR_EMAIL:$TM_EMAIL}&gt;
  * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
  **/
-class ${1:Singular} extends AppModel {
-	var \$name = '$1';
-	$0
+class ${1:Singular} extends AppModel
+{
+
+    var \$name = '$1';
+    $0
+
 }
+
 ?&gt;</string>
 	<key>name</key>
 	<string>New Model</string>
