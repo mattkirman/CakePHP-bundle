@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+/**
+ * $1Helper${2:
+ * 
+ * ${3:Short Description}}
+ *
+ * @package ${4:default}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME} &lt;${PHPDOC_AUTHOR_EMAIL:$TM_EMAIL}&gt;
+ * @copyright ${PHPDOC_AUTHOR:$TM_ORGANIZATION_NAME}
+ **/
+class ${1:Singular}Helper extends AppHelper
+{
+
+    $0
+
+}
+
+?&gt;</string>
+	<key>name</key>
+	<string>New Helper</string>
+	<key>scope</key>
+	<string>source.php.cake</string>
+	<key>tabTrigger</key>
+	<string>helper</string>
+	<key>uuid</key>
+	<string>DC1C40DD-BABC-4416-8585-33AC6374E413</string>
+</dict>
+</plist>
