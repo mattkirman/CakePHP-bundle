@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$data['${1:Model}']['${2:field}']; ?&gt;</string>
+	<string>&lt;?php echo \$this-&gt;data[&apos;${1:Model}&apos;][&apos;${2:field}&apos;]; ?&gt;</string>
 	<key>name</key>
-	<string>echo $data['Model']['field']</string>
+	<string>echo $this-&gt;data[&apos;Model&apos;][&apos;field&apos;]</string>
 	<key>scope</key>
 	<string>text.html.php.cake</string>
 	<key>tabTrigger</key>
