@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;redirect(array('controller' =&gt; '${1:controller}', 'action' =&gt; '${2:action}'$0));</string>
+	<string>\$this-&gt;redirect(${1:array('controller' =&gt; '${2:controller}', 'action' =&gt; '${3:action}'$4)});</string>
 	<key>name</key>
 	<string>$this-&gt;redirect()</string>
 	<key>scope</key>
